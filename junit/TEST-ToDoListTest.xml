@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="SFT-OIS29309" name="ToDoListTest" skipped="0" tests="4" time="0.194" timestamp="2020-03-25T07:25:31">
+  <properties>
+    <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="env.USERPROFILE" value="C:\Users\diana_wang" />
+    <property name="java.specification.version" value="10" />
+    <property name="ant.project.name" value="TodoList" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.__PSLockdownPolicy" value="4" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\diana_wang\git\repository\repository\TodoList\junit\TEST-ToDoListTest.xml crashfile=C:\Users\diana_wang\git\repository\repository\TodoList\junitvmwatcher7085056175297517915.properties propsfile=C:\Users\diana_wang\git\repository\repository\TodoList\junit2852296463031953560.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2018-03-20" />
+    <property name="java.home" value="C:\Program Files\Java\jdk-10" />
+    <property name="basedir" value="C:\Users\diana_wang\git\repository\repository\TodoList" />
+    <property name="file.separator" value="\" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="ant.file.TodoList" value="C:\Users\diana_wang\git\repository\repository\TodoList\build.xml" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\diana_wang\AppData\Local" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="RP" />
+    <property name="env.PROCESSOR_REVISION" value="8e09" />
+    <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel" />
+    <property name="java.runtime.version" value="10+46" />
+    <property name="user.name" value="diana_wang" />
+    <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.vendor.version" value="18.3" />
+    <property name="env.COMPUTERNAME" value="SFT-OIS29309" />
+    <property name="env.HOMEPATH" value="\Users\diana_wang" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="env.APPDATA" value="C:\Users\diana_wang\AppData\Roaming" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="java.io.tmpdir" value="C:\Users\DIANA_~1\AppData\Local\Temp\" />
+    <property name="java.version" value="10" />
+    <property name="env.Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Program Files (x86)\Micro Focus\Content Manager\;C:\Users\diana_wang\AppData\Local\Microsoft\WindowsApps;" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+    <property name="env.TMP" value="C:\Users\DIANA_~1\AppData\Local\Temp" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Program Files (x86)\Micro Focus\Content Manager\;C:\Users\diana_wang\AppData\Local\Microsoft\WindowsApps;;." />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.LOGONSERVER" value="\\RPDC7" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.desktop" value="windows" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.USERDNSDOMAIN" value="RP.EDU.SG" />
+    <property name="java.class.path" value="C:\Users\diana_wang\git\repository\repository\TodoList\bin;C:\Users\diana_wang\git\repository\repository\TodoList\ant\junit.jar;C:\Users\diana_wang\git\repository\repository\TodoList\ant\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit.jar;C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant-junit4.jar" />
+    <property name="source" value="1.8" />
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.TodoList" value="file" />
+    <property name="user.timezone" value="" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="java.vm.specification.version" value="10" />
+    <property name="os.name" value="Windows 10" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.USERDOMAIN" value="RP" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\diana_wang" />
+    <property name="user.language" value="en" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="ant.java.version" value="10" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="env.ANT_HOME" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="ant.file" value="C:\Users\diana_wang\git\repository\repository\TodoList\build.xml" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="ant.project.invoked-targets" value="build" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.10.5.v20190526-1402\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/" />
+    <property name="user.dir" value="C:\Users\diana_wang\git\repository\repository\TodoList" />
+    <property name="env.USERNAME" value="diana_wang" />
+    <property name="os.arch" value="amd64" />
+    <property name="target" value="1.8" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="10+46" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="env.TEMP" value="C:\Users\DIANA_~1\AppData\Local\Temp" />
+    <property name="java.class.version" value="54.0" />
+    <property name="env.OneDrive" value="C:\Users\Administrator\OneDrive" />
+    <property name="ant.project.default-target" value="build" />
+  </properties>
+  <testcase classname="ToDoListTest" name="testAddTask" time="0.002" />
+  <testcase classname="ToDoListTest" name="testGetCompletedTasks" time="0.0" />
+  <testcase classname="ToDoListTest" name="testgetStatus" time="0.0" />
+  <testcase classname="ToDoListTest" name="testRemoveTask" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

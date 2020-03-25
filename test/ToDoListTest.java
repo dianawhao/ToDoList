@@ -26,6 +26,10 @@ public class ToDoListTest {
 
 		
 		todoList = new ToDoList();
+<<<<<<< HEAD
+=======
+
+>>>>>>> branch 'master' of https://github.com/dianawhao/ToDoList
 
 	}
 	@After
