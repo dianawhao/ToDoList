@@ -20,7 +20,8 @@ public class ToDoListTest {
 		task3 = new Task ("desc 3");
 
 		
-		todoList = new ToDoList();
+		// todoList = new ToDoList();
+		todoList = null;
 
 	}
 	@After
