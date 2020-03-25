@@ -7,6 +7,7 @@ public class ToDoList {
 	private HashMap<String, Task> tasks = new HashMap<String, Task>();
 	
 	public void addTask (Task task) {
+		// add a new task to the todolist
 		tasks.put(task.getDescription(), task);
 	}
 	public void completeTask(String description) {

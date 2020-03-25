@@ -18,6 +18,7 @@ public class ToDoListTest {
 		task1 = new Task ("desc 1");
 		task2 = new Task ("desc 2");
 		task3 = new Task ("desc 3");
+
 		
 		todoList = new ToDoList();
 
