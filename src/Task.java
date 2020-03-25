@@ -1,18 +1,20 @@
+import java.util.Date;
 
 public class Task {
 	private String description = null;
 	private boolean isComplete = false;
-	
+	private Date dueDate = null;
 	
 	public Task(String description) {
 		super();
 		this.description = description;
 	}
 	
-	public Task(String description, boolean isComplete) {
+	public Task(String description, boolean isComplete, Date inDate) {
 		super();
 		this.description = description;
 		this.isComplete = isComplete;
+		this.dueDate = inDate;
 	}
 	
 	public String getDescription() {
@@ -26,6 +28,14 @@ public class Task {
 	}
 	public void setComplete(boolean isComplete) {
 		this.isComplete = isComplete;
+	}
+	
+	public Date getdueDate() {
+		return this.dueDate;
+	}
+	
+	public void setdueDate(Date inDate) {
+		this.dueDate = inDate;
 	}
 
 }
