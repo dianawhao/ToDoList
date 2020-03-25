@@ -34,7 +34,7 @@ public class ToDoListTest {
 
 	@Test
 	public void testAddTask() {
-		assertNotNull("Check there is valid list to add to", todoList);
+		assertNotNull("Check if there is valid list to add to", todoList);
 		todoList.addTask(task1);
 		assertEquals("Check that list size is 1", 1, todoList.getAllTasks().size());
 		assertEquals("Check that task is added", task1, todoList.getTask(task1.getDescription()));
