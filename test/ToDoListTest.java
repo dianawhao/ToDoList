@@ -20,6 +20,7 @@ public class ToDoListTest {
 		task3 = new Task ("desc 3");
 		
 		todoList = new ToDoList();
+
 	}
 	@After
 	 public void tearDown() throws Exception{
@@ -32,10 +33,10 @@ public class ToDoListTest {
 
 	@Test
 	public void testAddTask() {
-		assertNotNull(todoList);
+		assertNotNull("Check there is valid list to add to", todoList);
 		todoList.addTask(task1);
-		assertEquals(1, todoList.getAllTasks().size());
-		assertEquals(task1, todoList.getTask(task1.getDescription()));
+		assertEquals("Check that list size is 1", 1, todoList.getAllTasks().size());
+		assertEquals("Check that task is added", task1, todoList.getTask(task1.getDescription()));
 	}
 	@Test
 	public void testgetStatus() {
